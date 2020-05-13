@@ -68,7 +68,7 @@ public class ProjectCalloutService {
                 for (Opportunity opp : this.oppsToSend) {
                     Opportunity updateOpp = new Opportunity(
                         Id = opp.Id,
-                        StageName = 'Resubmit  Project'
+                        StageName = 'Resubmit Project'
                     );
 
                     oppsToUpdate.add(updateOpp);
