@@ -198,8 +198,8 @@ public with sharing class CalloutExample {
     Id opportunityId
   ) {
     Opportunity oppToUpdate = new Opportunity(
-      Id = opportunityId,
-      Sales_Tax__c = 0
+      Id = opportunityId //,
+      // Sales_Tax__c = 0 // field should exist in org
     );
 
     // take the response and parse out the tax amount and put it on the new opp for update
@@ -209,7 +209,7 @@ public with sharing class CalloutExample {
     System.debug(salesTax);
 
     if (salesTax != null) {
-      oppToUpdate.Sales_Tax__c = salesTax;
+      //   oppToUpdate.Sales_Tax__c = salesTax; // field should exist in org
     }
 
     update oppToUpdate;
