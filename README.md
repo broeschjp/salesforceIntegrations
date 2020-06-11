@@ -1,4 +1,7 @@
-# Salesforce App
+# Salesforce Integrations
+Derived from my Integration Superbadge experience, I have started putting more integration tools into this repo. Rest and Soap apis, custom endpoints, and anything else i attempt to do that goes well can be found here.
+
+## Salesforce App
 
 This guide helps Salesforce developers who are new to Visual Studio Code go from zero to a deployed app using Salesforce Extensions for VS Code and Salesforce CLI.
 
